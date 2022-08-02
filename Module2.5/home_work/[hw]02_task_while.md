@@ -21,10 +21,10 @@
 a = int(input("a: "))
 b = int(input("b: "))
 
-a = int(input("a: "))
-b = int(input("b: "))
 
 
+if b < a:
+    a, b = b, a
 
 while a <= b:
     if a % 5 == 0: # Если число кратно трем

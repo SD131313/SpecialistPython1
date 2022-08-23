@@ -15,9 +15,17 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+needed_value = "stop"
+print("Для окончания программы введите", needed_value)
+x = ""
+count = 0
+
+while needed_value != x:
+    input_value = input("value: ") and x > 0
+    #if int(x) > 0:
+    count += 1
+    print("Вы ввели число:", x)
+    print(count)
 
 ---
 

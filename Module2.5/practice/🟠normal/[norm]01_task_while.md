@@ -32,9 +32,10 @@ n = 5
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+rows = int(input('Введите число: '))
+for x in range(rows):
+    print('*' * (x+1))
+
 
 ---
 
